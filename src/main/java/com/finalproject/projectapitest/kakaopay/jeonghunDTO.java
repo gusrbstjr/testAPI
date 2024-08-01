@@ -6,5 +6,6 @@ public class jeonghunDTO {
         System.out.println("이끄어 카트 변경 잌잌잌잌");
         System.out.println("페이테스트 5번제외");
         System.out.println("찐막테스트");
+        System.out.println("이끄어 완전 아약스 아약스");
     }
 }
