@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: ProjectAPITest
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: hansoolshop
+    password: mesgmnuuafyhjulr
+    properties:
+      mail:
+        smtp:
+          auth: true
+          timeout: 5000
+          starttls:
+            enable: true

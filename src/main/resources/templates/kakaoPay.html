@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>카카오페이 호출 테스트</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+    <form action="/kakaoPay" method="post">
+        <button type="submit">카카오페이 호출하기</button>
+    </form>
+
+    <script>
+        // let kakakpayData = {
+        //     "cid": "TC0ONETIME",
+        //     "partner_order_id": "partner_order_id",
+        //     "partner_user_id": "partner_user_id",
+        //     "item_name": "초코파이",
+        //     "quantity": "1",
+        //     "total_amount": "2200",
+        //     "vat_amount": "200",
+        //     "tax_free_amount": "0",
+        //     "approval_url": "http://hansool.shop:8080/login",
+        //     "fail_url": "http://hansool.shop:8080",
+        //     "cancel_url": "http://hansool.shop:8080"
+        // }
+        //
+        // function kakaoPay(){
+        //     $.ajax({
+        //         url: 'https://open-api.kakaopay.com/online/v1/payment/ready',
+        //         headers:{
+        //             'Access-Control-Allow-Origin': '*',
+        //             'Authorization': 'SECRET_KEY DEV4DD0EA10A998E203FBC63460C5921E358FDEF',
+        //             'Content-Type': 'application/json'
+        //         },
+        //         data: JSON.stringify(kakakpayData),
+        //         type: 'post',
+        //         success: function (result){
+        //             console.log(JSON.parse(result));
+        //         },
+        //         error: function(){
+        //             console.log("에러발생")
+        //         }
+        //     });
+        // }
+
+
+
+    </script>
+</body>
+</html>
