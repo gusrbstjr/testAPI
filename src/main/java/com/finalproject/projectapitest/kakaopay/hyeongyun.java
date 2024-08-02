@@ -6,5 +6,6 @@ public class hyeongyun {
 
         System.out.println("테스트");
         System.out.println("두번째 테스트");
+        System.out.println("마지막 테스트");
     }
 }
